@@ -1,0 +1,190 @@
+
+header {
+    background-color: #888282;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+
+.container {
+    display: flex; /* Use flexbox for layout */
+}
+
+.main-content {
+    flex: 1; /* Let the main content grow to fill available space */
+    padding-right: 20px; /* Add spacing between sections */
+}
+
+
+
+#Personal {
+    font-family: Arial, sans-serif; /* Specify the font family */
+    font-size: 16px; /* Specify the font size */
+    color: blue;
+    /* Specify the font weight */
+    /* Add any other font-related styles as needed */
+}
+
+#Personal p {
+    font-style: italic; /* Apply italic style to paragraphs within the section */
+}
+
+#Personal ul {
+    list-style-type: none; /* Remove default list style */
+}
+
+#Personal li {
+    margin-bottom: 8px; /* Add spacing between list items */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Soniya.Sukumaran {
+    width: 30%; /* Set the width of the aside section */
+    padding: 20px; /* Add some padding for spacing */
+    background-color: rgb(204, 230, 230); /* Change the background color of the aside section */
+    padding: 20px; /* Add some padding for spacing */
+    border-left: 1px solid #fcfcfc; /* Add a border for separation */
+    box-sizing: border-box; /* Include padding and border in the width */
+    color:rgb(26, 24, 24);
+}
+
+.Soniya.Sukumaran img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Make the image a block-level element */
+    margin-bottom: 10px; /* Add spacing below the image */
+}
+
+. Soniya.Sukumaran a {
+    display: block; /* Make links block-level elements */
+    margin-bottom: 10px; /* Add spacing between links */
+    text-decoration: none; /* Remove default underline */
+    font-size: 50px;
+}
+
+
+
+.main-content {
+    width: 60%; /* Set the width of the aside section */
+    padding: 20px; /* Add some padding for spacing */
+    background-color: rgb(0, 7, 10); /* Change the background color of the aside section */
+    padding: 20px; /* Add some padding for spacing */
+    border-left: 1px solid #fcfcfc; /* Add a border for separation */
+    box-sizing: border-box; /* Include padding and border in the width */
+    color: rgb(249, 247, 247);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#expertise-areas {
+    background-color: black; /* Set black background color */
+    color: white; /* Set text color to white */
+    padding: 40px 0; /* Add padding to the expertise area */
+}
+
+
+.box {
+    background-color: #757474;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    width: calc(100% - 20px); /* Subtracting margin to make it full-width */
+    max-width: 800px; /* Set a maximum width to prevent it from becoming too wide on large screens */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+.expertise-box {
+    display: flex;
+    flex-wrap: wrap; /* Allow boxes to wrap to the next line if needed */
+    justify-content: center; /* Center-align boxes */
+}
+
+.box h3 {
+    margin-top: 0;
+}
+
+.box p {
+    margin-bottom: 0;
+}
+
+
+
+
+
+#skills {
+    background-color: rgb(8, 14, 15); /* Set black background color */
+    color: white; /* Set text color to white */
+    padding: 40px 0; /* Add padding to the skill area */
+}
+
+.skill-box {
+    background-color: #797676;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px auto; /* Center-align the box horizontally */
+    width: calc(100% - 40px); /* Subtracting padding to make it full-width */
+    max-width: 800px; /* Set a maximum width to prevent it from becoming too wide on large screens */
+}
+
+.skill-box h2 {
+    text-align: center; /* Center-align the heading */
+}
+
+.skill-list {
+    list-style: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove default padding */
+    display: grid; /* Use grid layout for the list items */
+    grid-template-columns: repeat(3, 1fr); /* Create three equal columns */
+    grid-gap: 10px; /* Add spacing between columns */
+}
+
+.skill-list li {
+    margin-bottom: 0; /* Remove bottom margin to prevent extra spacing */
+    text-align: center; /* Center-align the text */
+}
+
+
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    font-size: 18px;
+    color: #f1a414;
+}
+
+.navigation li {
+    display: inline; /* Change display to inline */
+    margin: 0 10px; /* Add spacing between navigation links */
+}
+
+
