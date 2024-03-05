@@ -177,3 +177,18 @@ p {
 }
 
 
+.education {
+    text-align: center; 
+}
+
+.education {
+    list-style-type: none; /* Remove default bullets */
+    padding-left: 0; 
+
+.education {
+    background-color: #f0f0f0; 
+    padding: 10px; 
+    margin: 10px auto; 
+}
+
+
