@@ -143,6 +143,7 @@ p {
 #skills {
     background-color: rgb(8, 14, 15); /* Set black background color */
     color: white; /* Set text color to white */
+    font-size: 28px;
     padding: 40px 0; /* Add padding to the skill area */
 }
 
