@@ -1,0 +1,83 @@
+header {
+    background-color: #f7c1dc;
+    color: rgb(12, 5, 5);
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+
+.container {
+    display: flex;
+    background-color: #464747
+}
+
+.container section {
+    flex: 1; /* Make the image section flexible */
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+}
+.container section img {
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+    max-height: 100%; /* Ensure the image doesn't exceed the container height */
+}
+
+.container aside p {
+    font-size: 20px; /* Adjust the font size as needed */
+}
+
+.container aside {
+    flex: 1; /* Make the art section flexible */
+    padding-left: 20px; /* Add padding to the left of the art section for spacing */
+
+    background-color: rgb(80, 81, 82);
+    color:white;
+}
+
+
+    
+
+
+    .center-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Adjust the height as needed */
+    }
+    
+    .center-image img {
+        max-width: 100%; /* Ensure the image doesn't exceed the container width */
+        max-height: 100%; /* Ensure the image doesn't exceed the container height */
+        /* Optional: Center the image horizontally */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    .painting-section {
+        text-align: center; /* Center align the content */
+        background-color: rgb(247, 188, 239); /* Set black background color */
+        color: rgb(10, 5, 5); /* Set text color to white */
+    }
+    
+    .painting-section h2 {
+        margin-bottom: 20px; /* Add space between heading and images */
+    }
+    
+    .image-container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .image-container img {
+        width: 500px; /* Adjust the width as needed */
+        height: auto; /* Maintain aspect ratio */
+        margin: 0 10px; /* Add margin between images */
+    }
+
+    
