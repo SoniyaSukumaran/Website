@@ -143,7 +143,7 @@ p {
 #skills {
     background-color: rgb(8, 14, 15); /* Set black background color */
     color: white; /* Set text color to white */
-    font-size: 28px;
+    font-size: 30px;
     padding: 40px 0; /* Add padding to the skill area */
 }
 
@@ -160,18 +160,6 @@ p {
     text-align: center; /* Center-align the heading */
 }
 
-.skill-list {
-    list-style: none; /* Remove bullet points from the list */
-    padding: 0; /* Remove default padding */
-    display: grid; /* Use grid layout for the list items */
-    grid-template-columns: repeat(3, 1fr); /* Create three equal columns */
-    grid-gap: 10px; /* Add spacing between columns */
-}
-
-.skill-list li {
-    margin-bottom: 0; /* Remove bottom margin to prevent extra spacing */
-    text-align: center; /* Center-align the text */
-}
 
 
 
